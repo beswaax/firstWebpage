@@ -5,26 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="/CSS/contactstyles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Contact</h1>
-    <div class="contact">
+    <div class="contact">    
+        <h1>Contact</h1>
         <form>
             <fieldset class="data">
                 <legend>Your Data</legend>
-                <label for="name">Name</label>
+                <label for="name">Name:</label>
                 <input type="text" name="name" id="name">
                 <br>
-                <label for="email">Email</label>
+                <label for="email">Email:</label>
                 <input type="email" name="email" id="name">
                 <br>
+                <label for="tel">Tel.</label>
+                <input type="tel" min="1" name="tel" id="tel" placeholder="Add country prefix">
                 <p>Are you over the age of 18?</p>
                 <label for="over18">Yes</label>
                 <input type="radio" name="age" id="over18" value="over18">
                 <label for="under18">No</label>
                 <input type="radio" name="age" id="under18" value="under18">
-                <label for="tel">Tel.</label>
-                <input type="tel" min="1" name="tel" id="tel" placeholder="Add country prefix">
+                <br>
             </fieldset>
             <fieldset class="intent">
                 <legend>Query Intent</legend>
@@ -35,13 +37,14 @@
                     <option>I need to develop an Android/iOS app</option>
                     <option>I need a Fullstack Engineer</option>
                 </select>
+                <br>
                 <label for="tellmore">Special requests:</label>
                 <textarea id="tellmore" name="tellmore"></textarea>
-                <label for="liking">Add me to your email list</label>
-                <input type="checkbox" id="liking" name="liking">
-            </fieldset>
-            <fieldset class="submitbutton">
-                <input type="submit">
+                <br>
+                <label for="liking">Add me to your email list
+                    <input type="checkbox" id="liking" name="liking"></label>
+                <br>
+                <input type="submit" class="submit">
             </fieldset>
         </form>
     </div>    
