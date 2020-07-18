@@ -1,0 +1,41 @@
+body{
+    margin: 0 auto;
+    background-color: #ACDBD8;
+}
+.headstuff{
+    display:flex;
+    flex-flow: column;
+    background-color: #86DBD8;
+    border: 10px lightpink solid;
+    border-radius: 25px;
+}
+.list{
+    display:flex;
+    flex-flow: row;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+h1{
+    margin: 0 auto;
+    font-family: 'Indie Flower', cursive;
+}
+h2{
+    font-family: 'Indie Flower', cursive;
+}
+ul{
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+    margin-right: 30px;
+}
+.body{
+    display:flex;
+    flex-flow: row;
+}
+img{
+    width:500px;
+}
+p{
+    width: 1000px;
+}
