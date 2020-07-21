@@ -33,9 +33,32 @@ li{
     display:flex;
     flex-flow: row;
 }
-img{
-    width:500px;
-}
 p{
-    width: 1000px;
+    width: 300px;
+}
+.wrapper{
+    display:inline-block;
+}
+
+.image-gallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:300px;
+}
+.image-moto{
+    width: 300px;
+    height: 300px;
+    display: none;
+}
+.active{
+    display:inline-block;
+}
+
+.buttons{
+    display: flex;
+}
+button{
+    margin: 5px 0 0 30px;
+    padding: 10px;
 }
